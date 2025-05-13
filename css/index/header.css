@@ -1,0 +1,142 @@
+header {
+    margin-left: auto;
+    margin-right: auto;
+    width: 90%;
+    height: 6vw;
+    background-color: rgba(0, 0, 0, 0.725);
+    border-radius: 0 0 2vw 2vw;
+    position: sticky;
+    top: 0;
+    display: flex;
+    flex-direction: row;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    z-index: 1;
+}
+
+.logo__header {
+    font-family: "NFS_MW";
+    margin-top: auto;
+    margin-bottom: auto;
+    font-size: 3vw;
+    margin-left: 5%;
+    transition: all 0.5s ease-in-out;
+    color: rgba(255, 255, 255, 1);
+}
+
+.logo__header:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+.buttons__header {
+    font-family: "NFS_MW";
+    font-size: 2vw;
+    cursor: pointer;
+    display: flex;
+    flex-direction: row;
+    margin-left: auto;
+    color: #FFFFFF;
+    gap: 1.5vw;
+    margin-right: 2.5%;
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+.language__header {
+    display: flex;
+    flex-direction: column;
+    margin-top: auto;
+    margin-bottom: auto;
+    gap: 0.25vw;
+    width: auto;
+    margin-right: 5%;
+}
+
+.russia__header {
+    background-image: url(../../media/img/index/header/Russia.png);
+    background-size: cover;
+    width: 1.5vw;
+    height: 1vw;
+    background-position: center;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.125vw;
+}
+
+.usa__header {
+    background-image: url(../../media/img/index/header/USA.png);
+    background-size: cover;
+    width: 1.5vw;
+    height: 1vw;
+    background-position: center;
+    cursor: pointer;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 0.125vw;
+}
+
+.border__russia__header {
+    width: 2vw;
+    height: 1.5vw;
+    background-color: rgba(255, 255, 255, 0.5);
+    display: flex;
+    border-radius: 0.25vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+.border__usa__header {
+    width: 2vw;
+    height: 1.5vw;
+    display: flex;
+    border-radius: 0.25vw;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    cursor: pointer;
+}
+
+#about__us {
+    transition: all 0.5s ease-in-out;
+}
+
+#about__us:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+#projects {
+    transition: all 0.5s ease-in-out;
+}
+
+#projects:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+#contact {
+    transition: all 0.5s ease-in-out;
+}
+
+#contact:hover {
+    cursor: pointer;
+    transform: scale(1.15);
+    text-shadow: 0 0 1vw #FFFFFF;
+}

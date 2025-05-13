@@ -1,0 +1,284 @@
+.about__us__main {
+    display: flex;
+    width: 100%;
+    height: 25vw;
+    margin-top: 10vw;
+    border: #FFFFFF dashed 0.15vw;
+    border-left: 0;
+    border-right: 0;
+    overflow: hidden;
+    position: relative;
+}
+
+.about__us__text {
+    color: #FFFFFF;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.15vw;
+    text-align: center;
+    position: absolute;
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+    text-shadow: 0 0 1vw #FFFFFF;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    background-color: rgba(0, 0, 0, 0.25);
+    border-radius: 1vw;
+    padding: 1vw;
+}
+.video__about__us__main {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    min-width: 100%;
+    height: auto;
+    max-height: 200%;
+}
+
+.projects__name__main {
+    color: #FFFFFF;
+    margin-top: 12vw;
+    font-size: 3vw;
+    font-family: 'NFS_MW';
+    display: flex;
+    width: 20vw;
+    padding-top: 1vw;
+    border-radius: 1vw 1vw 0 0;
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
+    text-shadow: 0 0 1vw #FFFFFF;
+    background-color: rgba(0, 0, 0, 0.725);
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+.projects__main {
+    margin-top: 0;
+    background-color: rgba(0, 0, 0, 0.725);
+    width: 77.5%;
+    height: auto;
+    display: flex;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 2vw;
+    padding-top: 2.5vw;
+    padding-bottom: 2.5vw;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-content: flex-start;
+    gap: 2.5vw;
+    max-width: fit-content;
+    margin-bottom: 6vw;
+}
+
+.card {
+    width: 35vw;
+    height: 20vw;
+    border-radius: 1vw;
+    display: flex;
+    flex-direction: column;
+    box-shadow: #000000 0 0 1vw;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    transition: all 0.5s ease-in-out;
+}
+
+.card__header {
+    width: 100%;
+    height: 20%;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+    background-color: rgba(0, 0, 0, 0.725);
+    border-radius: 1vw 1vw 0 0;
+    color: #FFFFFF;
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+.card__bottom {
+    width: 100%;
+    height: 80%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 1.25vw;
+}
+
+.card__download {
+    width: 22.5%;
+    margin-right: auto;
+    justify-content: center;
+    height: min-content;
+    margin-top: 35%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.5s ease-in-out;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: #FFFFFF;
+    border-radius: 0 1vw 1vw 0;
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+.card__download__none {
+    width: 22.5%;
+    margin-right: auto;
+    justify-content: center;
+    height: min-content;
+    margin-top: 35%;
+    display: flex;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    transition: all 0.5s ease-in-out;
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    background-color: rgba(0, 0, 0, 0.725);
+    color: #FFFFFF;
+    border-radius: 0 1vw 1vw 0;
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+.card__download:hover {
+    cursor: pointer;
+    width: 45%;
+    background-color: #FFFFFF;
+    color: #000000;
+    text-shadow: 0 0 1vw #000000;
+}
+
+.card__year {
+    justify-content: center;
+    height: min-content;
+    margin-top: 35%;
+    background-color: rgba(0, 0, 0, 0.725);
+    padding: 0.5vw;
+    padding-left: 1vw;
+    padding-right: 1vw;
+    border-radius: 1vw 0 0 1vw;
+    color: #FFFFFF;
+    text-shadow: 0 0 1vw #FFFFFF;
+}
+
+.card__soon {
+    width: 100%;
+    height: 25%;
+    color: #FFFFFF;
+    text-shadow: 0 0 1vw #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 2.5vw;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2vw;
+    border-bottom: #FFFFFF dashed 0.15vw;
+    border-top: #FFFFFF dashed 0.15vw;
+    background-color: rgba(0, 0, 0, 0.725);
+    margin-top: auto;
+    margin-bottom: auto;
+}
+
+#card__1 {
+    background-image: url(../../media/img/index/main/cards/card1.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card__1 .card__header {
+    font-family: 'NFS_MW';
+    font-size: 2vw; 
+}
+
+#card__1:hover {
+    transform: scale(1.05);
+}
+
+
+#card__2 {
+    background-image: url(../../media/img/index/main/cards/card2.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card__2 .card__header {
+    font-family: 'GTA';
+    font-size: 2vw; 
+}
+
+#card__2:hover {
+    transform: scale(1.05);
+}
+
+
+#card__3 {
+    background-image: url(../../media/img/index/main/cards/card3.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card__3 .card__header {
+    font-family: 'GTA';
+    font-size: 2vw; 
+}
+
+#card__3:hover {
+    transform: scale(1.05);
+}
+
+
+#card__4 {
+    background-image: url(../../media/img/index/main/cards/card4.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card__4 .card__header {
+    font-family: 'NFS';
+    font-size: 1.25vw; 
+}
+
+#card__4:hover {
+    transform: scale(1.05);
+}
+
+
+#card__5 {
+    background-image: url(../../media/img/index/main/cards/card5.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#card__5 .card__header {
+    font-family: 'Bully';
+    font-size: 2.5vw; 
+}
+
+#card__5:hover {
+    transform: scale(1.05);
+}
+
+.line {
+    width: 100%;
+    height: 0.15vw;
+    background-color: #FFFFFF;
+}

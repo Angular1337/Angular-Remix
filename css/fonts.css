@@ -1,0 +1,19 @@
+@font-face {
+	font-family: 'NFS_MW'; 
+	src: url(../fonts/NFS\ Most\ Wanted.ttf); 
+}
+
+@font-face {
+	font-family: 'GTA'; 
+	src: url(../fonts/GTA.ttf); 
+}
+
+@font-face {
+	font-family: 'NFS'; 
+	src: url(../fonts/NFS.ttf); 
+}
+
+@font-face {
+	font-family: 'Bully'; 
+	src: url(../fonts/Bully.otf); 
+}
