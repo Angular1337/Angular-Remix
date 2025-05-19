@@ -6,9 +6,9 @@ document.getElementById('download__1').addEventListener('click', function() {
 // Снизу переходы по ссылкам
 
 document.getElementById('contact').addEventListener('click', function() {
-    window.location.href = '../../about.html'; // Замените на адрес нужной страницы
+    window.location.href = './about.html'; // Замените на адрес нужной страницы
 });
 
 document.getElementById('123').addEventListener('click', function() {
-    window.location.href = '../../index.html'; // Замените на адрес нужной страницы
+    window.location.href = './index.html'; // Замените на адрес нужной страницы
 });
